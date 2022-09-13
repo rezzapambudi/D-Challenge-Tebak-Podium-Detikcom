@@ -1,0 +1,6 @@
+220304
+[D'CHALLANGE TEBAK PODIUM]
+[UPDATE]
+Client: Eko Proman
+1. Page: Tebak Podium, Komponen: Prediksi Podium, Update: Modif css agar nama driver yang terlalu panjang bisa lebih proporsional
+2. Page: Tebak Podium, Komponen: Modal, Update: Penambahan 2 modal yaitu a. Info quiz dibuat h-3, b. Info anda harus pilih 3 driver

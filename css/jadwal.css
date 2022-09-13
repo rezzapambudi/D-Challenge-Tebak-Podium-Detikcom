@@ -1,0 +1,155 @@
+#jadwal {
+  background: url(../assets/img/background/header-background-2022.jpg) no-repeat;
+  background-size: cover;
+  padding-bottom: 60px;
+  background-color: #0563b0;
+}
+
+#jadwal .header-box {
+  margin-top: 220px;
+}
+
+#jadwal h3 {
+  font-family: TitilliumWeb-SemiBold;
+  color: #fff;
+}
+
+#jadwal h1 {
+  font-family: TitilliumWeb-Bold;
+  color: #fff;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.container-jadwal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.box-jadwal {
+  width: 274px;
+  height: 274px;
+  background: #afafaf;
+  border: 3px solid #AFAFAF;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 17px;
+  opacity: 0.7;
+}
+
+.box-jadwal-active {
+  background: #FCFCFC;
+  opacity: 1;
+}
+
+.box-jadwal-active-color {
+  background: rgb(228, 239, 255);
+  opacity: 1;
+}
+
+.jadwal-container-button {
+  margin: 22px 0;
+}
+
+.btn-ikuti-quiz {
+  color: #ffffff;
+  background: #438AD9;
+}
+
+.btn-ikuti-quiz:hover {
+  color: #ffffff;
+}
+
+.container-jadwal-tanggal {
+  width: 44px;
+  border-right: 1px solid #434343
+}
+
+.jadwal-tanggal {
+  font-family: TitilliumWeb-Bold;
+  font-size: 50px;
+  color: #8E8E8E;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.jadwal-ppd {
+  font-family: "tw-reguler";
+  font-size: 30px;
+  color: #8E8E8E;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.jadwal-bulan {
+  font-family: TitilliumWeb-Bold;
+  font-size: 25px;
+  color: #8E8E8E;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+}
+
+.circuit-name {
+  font-family: TitilliumWeb-Bold;
+  font-size: 12px;
+  line-height: 13px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.circuit-desc {
+  font-family: TitilliumWeb-Regular;
+  font-size: 11px;
+  line-height: 12px;
+  margin: 3px 0px;
+}
+
+.circuit-flag>img {
+  width: 18px;
+  height: 12px;
+}
+
+.container-circuit-country {
+  font-family: TitilliumWeb-SemiBold;
+}
+
+#jadwal .btn-ikuti-quiz {
+  border-radius: 8px;
+  padding: 5px 20px;
+  background: #0B1C8A !important;
+  border-color: #0B1C8A;
+  font-family: 'TitilliumWeb-SemiBold';
+  font-size: 14px;
+}
+
+
+@media(max-width:480px) {
+  #jadwal {
+    background-size: contain;
+  }
+
+  #jadwal h3,
+  #pemenang h3 {
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  #jadwal h1,
+  #pemenang h1 {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  .jadwal-container-button {
+    margin: 4px 0;
+  }
+}

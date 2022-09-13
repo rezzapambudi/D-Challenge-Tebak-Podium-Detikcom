@@ -1,0 +1,29 @@
+.hadiahkeren .mekanisme {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 56px;
+  background: #E1EDFF;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #162DBF;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.hadiahkeren .mekanisme i {
+  margin-left: 8px;
+}
+
+.hadiahkeren .image-intro {
+  top: 210px;
+}
+
+@media (max-width: 1200px) {
+  .hadiahkeren .image-intro {
+    top: 20px;
+  }
+}

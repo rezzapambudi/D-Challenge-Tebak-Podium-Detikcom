@@ -1,0 +1,1365 @@
+body {
+  font-size: 12px;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #bbd8ff;
+}
+
+.center-nav {
+  position: fixed;
+  left: 35%;
+  width: 30%;
+  margin-top: -24px;
+}
+
+#navbarResponsive {
+  margin-top: -57px;
+}
+
+#navbarResponsive .nav-kanan li a {
+  color: #1f2a9d !important;
+}
+
+#onboard #navbarResponsive {
+  margin-top: -56px;
+}
+
+#onboard #navbarResponsive .nav-kanan li a {
+  color: #1f2a9d !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 14px;
+  padding: 0 8px;
+}
+
+#mainNav {
+  background: url(../assets/img/bg-navbar-2.png) bottom center no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  padding-top: 20px;
+  height: 130px;
+  z-index: 999;
+}
+
+#mainNav {
+  box-shadow: none;
+  background-color: #fff0;
+}
+
+#navbarResponsive .nav-kiri:first-child {
+  transform: translateX(-56%);
+}
+
+#navbarResponsive .nav-kanan:first-child {
+  transform: translateX(-56%);
+}
+
+#navbarResponsive .nav-session:last-child {
+  transform: translateX(-18%);
+}
+
+#navbarResponsive .nav-kanan li a {
+  transform: translateX(72%);
+}
+
+#onboard #navbarResponsive .nav-kiri:first-child {
+  transform: translateX(-56%);
+}
+
+#onboard #navbarResponsive .nav-kanan:first-child {
+  transform: translateX(-56%);
+}
+
+#onboard #navbarResponsive .nav-session:last-child {
+  transform: translateX(0%);
+}
+
+#onboard #navbarResponsive .nav-kanan li a {
+  transform: translateX(114%);
+}
+
+.logo-yamahagp {
+  max-width: 150px;
+}
+
+.logo-yamaha {
+  max-width: 120px;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 14px;
+  padding: 0 8px;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: #a3a3a3;
+  /* padding: 0 1rem; */
+}
+
+#mainNav.navbar-scrolled {
+  box-shadow: none;
+  background-color: #fff0;
+}
+
+#mainNav {
+  box-shadow: none;
+  background-color: #fff0;
+}
+
+.btn{
+  font-size: 20px;
+}
+
+.btn-login {
+  border-radius: 10rem;
+  padding: 5px 20px;
+  background: #1F2A9D;
+  border-color: #1F2A9D;
+}
+
+.btn-login:hover {
+  border-radius: 10rem;
+  padding: 5px 20px;
+  background: rgb(78, 89, 214);
+  border-color: rgb(78, 89, 214);
+}
+
+.btn-login svg {
+  display: none !important;
+}
+
+#onboard .btn-login {
+  border-radius: 10rem;
+  padding: 5px 20px;
+  background: #1F2A9D;
+  border-color: #1F2A9D;
+  margin-top: 4px;
+}
+
+.btn-user {
+  border-radius: 0rem;
+  padding: 5px 15px;
+  background: transparent;
+  border-color: transparent;
+}
+
+.btn-user:hover {
+  border-radius: 0rem;
+  padding: 5px 15px;
+  background: transparent;
+  border-color: transparent;
+}
+
+.btn-mekanisme {
+  border-radius: 8px;
+  padding: 5px 20px;
+  background: #898988;
+  border-color: #0A427B;
+  color: #000000;
+  font-family: 'TitilliumWeb-Bold';
+}
+
+.btn-mekanisme:hover {
+  border-radius: 10px;
+  padding: 5px 20px;
+  background: rgb(194, 223, 252);
+  border-color: #0A427B;
+  color: #0A427B;
+}
+
+.btn-ikuti-quiz {
+  border-radius: 8px;
+  padding: 5px 20px;
+  background: #162DBF !important;
+  border-color: #162DBF;
+  font-family: 'TitilliumWeb-SemiBold';
+}
+
+.btn-ikuti-quiz:hover {
+  border-radius: 8px;
+  padding: 5px 20px;
+  background: rgb(15, 97, 180) !important;
+  border-color: #0A427B;
+}
+
+.btn-live-streaming {
+  border-radius: 8px;
+  padding: 5px 20px;
+  background: #162dbf00 !important;
+  border-color: #162dbf00;
+  font-family: 'TitilliumWeb-SemiBold';
+}
+
+.btn-live-streaming:hover {
+  border-radius: 8px;
+  padding: 5px 20px;
+  background: #162DBF !important;
+  border-color: #162DBF;
+}
+
+.btn-live-streaming {
+  color: #162DBF;
+}
+
+.btn-back-home {
+  border-radius: 10px;
+  padding: 5px 20px;
+  background: #0B1C8A !important;
+  border-color: #0B1C8A;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.btn-back-home:hover {
+  border-radius: 10px;
+  padding: 5px 20px;
+  background: rgb(15, 97, 180) !important;
+  border-color: #0A427B;
+  color: #ffffff;
+}
+
+.btn-berita-lainnya {
+  border-radius: 10px;
+  padding: 5px 20px;
+  background: #0b1d89;
+  border-color: #0b1d89;
+}
+
+.btn-berita-lainnya:hover {
+  border-radius: 10px;
+  padding: 5px 20px;
+  background: rgb(35, 108, 180);
+  border-color: rgb(50, 123, 196);
+}
+
+.text-blue {
+  color: #0A427B;
+}
+
+.social-media a {
+  font-size: 30px !important;
+  padding: 0 8px;
+}
+
+.intro h1{
+  font-size: 64px !important;
+  text-transform: uppercase;
+}
+
+.intro p{
+  font-size: 18px !important;
+}
+
+.image-intro {
+  position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.image-intro img{
+  max-width: 580px;
+}
+
+.image-mechanism {
+  position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.image-mechanism img{
+  max-width: 560px;
+}
+
+.image-hadiah {
+  position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.image-hadiah img{
+  max-width: 680px;
+}
+
+.box-hadiah{
+  height: 500px;
+}
+
+.box-hadiah-atas {
+  display: flex;  
+}
+
+.box-hadiah-atas h2{
+ color: #1e1e1e;
+ text-transform: uppercase;
+}
+
+.box-hadiah-bawah {
+  height: 50px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  color: #4F4F4F;
+}
+
+.box-hadiah-bawah p{
+  font-size: 20px;
+}
+
+.prizes{
+  padding-top: 50px;
+}
+
+.box-title-hadiah{
+  position: relative;
+  height: auto;
+}
+.page-section {
+  padding: 1rem 0;
+  background: #f2f7fe;
+}
+
+header.masthead {
+  padding-top: 16rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  /* background: url(../assets/img/bg-intro.jpg); */
+  background: #F2F7FF;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.logo-yamahagp-intro {
+  max-width: 210px;
+  padding-bottom: 25px;
+}
+
+.box-title-intro {
+  margin-top: 200px;
+}
+
+.box-title-intro .bt1 {
+  font-family: TitilliumWeb-Regular;
+}
+
+.box-title-intro .bt2 {
+  font-family: TitilliumWeb-Black;
+}
+
+header.masthead h1 {
+  /* height: 280px; */
+}
+
+.box-ctp {
+  /* box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.25); */
+  border-radius: 20px;
+  padding: 120px;
+  color: #ffffff;
+  /* background: linear-gradient(180deg, #0B1C8A 0%, #000000 100%);
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.25); */
+  border-radius: 30px;
+  /* border: 2px solid #0b1d88; */
+  height: 540px;
+}
+
+#ctp #accordion {
+  padding-top: 60px;
+}
+
+#ctp #accordion .card-header {
+  font-size: 18px;
+}
+
+#ctp #accordion .card-header img{
+  padding-right: 20px;
+}
+
+#ctp #accordion .card-body p {
+  font-size: 18px;
+}
+
+#ctp .box-ctp-inner h6{
+  font-family: TitilliumWeb-Light;
+  color: #0B1C8A !important;
+}
+
+.baca:hover{
+  text-decoration: none;
+}
+
+.text-blue {
+  color: #ffffff;
+}
+
+.box-hadiah h6 {
+  font-family: TitilliumWeb-SemiBold !important;
+  text-transform: uppercase;
+}
+
+#hadiah{
+  padding-top: 250px;
+}
+
+#hadiah {
+  background: #f2f7fe;
+box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.2);
+}
+
+.pemenang h6 {
+  font-family: TitilliumWeb-SemiBold !important;
+  text-transform: uppercase;
+}
+
+#news {
+  background: #f2f7fe;
+  background-size: cover;
+}
+
+#news {
+  padding-top: 110px;
+  padding-bottom: 120px;
+}
+
+h2, .h2 {
+  font-size: 36px;
+}
+
+.box-hadiah {}
+
+.box-news-areegator {
+  color: #1E1E1E;
+}
+
+.card-text {
+  font-weight: bold;
+  font-size:13px;
+}
+
+.pemenang {
+  padding: 4rem 0 0 0rem;
+}
+
+.box-thumb {
+  height: 132px;
+  border-radius: 10px;
+}
+
+.box-thumb img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 130px !important;
+  border-radius: 10px;
+}
+
+#ctp .card-body {
+  background: #0b1d89;
+/* box-shadow: 0px -10px 9px rgba(0, 0, 0, 0.2); */
+}
+
+#ctp .card-body a {
+  
+  color: #ffffff;
+}
+
+#ctp .card{
+  border: 1px solid rgb(11 29 136);
+}
+
+.card-body {
+  background: #f2f7fd;
+/* box-shadow: 0px -10px 9px rgba(0, 0, 0, 0.2); */
+}
+
+.card-body a {
+  
+  color: #212529;
+}
+
+.logo-footer img {
+  width: 100%;
+}
+
+footer {
+
+  background-size: cover;
+  background-position: bottom;
+}
+
+footer .container .copy {
+  font-size: 18px;
+}
+
+.bg-black {
+  background: #000000;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+#onboard .show ul .profileuser-mobile {
+  display: none;
+}
+
+.logo-footer .logodtk-f {
+  max-width: 170px;
+}
+
+.logo-footer .logoyamaha-f {
+  max-width: 130px;
+}
+
+btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #ee3e0d00;
+  border-color: #e23a0d00;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+  color: #0a427b;
+  background-color: #dddddd;
+  border-color: #0a427b;
+}
+
+#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
+  color: #a3a3a3;
+}
+
+#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+  color: #1f2a9d;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link:active {
+  color: #000000;
+  font-weight: bold;
+}
+
+.active {
+  color: #000000 !important;
+  text-transform: uppercase;
+  /* padding: 0 1rem; */
+}
+
+.box-ctp-inner {
+  position: relative;
+  height: 160px;
+}
+
+.box-ctp-inner-atas {
+  display: flex;  
+}
+
+.box-ctp-inner-atas h2{
+ color: #1e1e1e;
+ text-transform: uppercase;
+}
+
+.box-ctp-inner-bawah {
+  height: 50px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  color: #4F4F4F;
+}
+
+.box-ctp-inner-bawah p{
+  font-size: 20px;
+}
+
+.card{
+  background-color: #E9F1FF;
+  /* border: 1px solid #012175; */
+}
+
+#ctp #accordion .card a{
+  color:#0B1C8A;
+  font-family: TitilliumWeb-bold;
+}
+
+.num-ctp {
+  position: absolute;
+  background: #f6f6f6;
+  color: #0a427b;
+  border: 1px solid #0a427b;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  margin: 0 0px 70px -160px;
+  font-size: 18px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+footer .row {
+  margin-right: 0px;
+}
+
+.box-ctp-inner-atas .ctp1 {
+  max-width: 160px;
+
+}
+
+.box-ctp-inner-atas .ctp2 {
+  max-width: 160px;
+
+}
+
+.box-ctp-inner-atas .ctp3 {
+  max-width: 160px;
+
+}
+
+.box-ctp-btn {
+  margin-top: 80px;
+}
+
+.card{
+  /* border: 1px solid #0B1C8A; */
+  margin: 5px 0;
+}
+
+#news .card{
+  border: none;
+}
+
+#news a:hover {
+  color: #498dd1;
+  text-decoration: none;
+}
+
+#news .btn-berita-lainnya {
+  color: #ffffff;
+}
+
+#news .btn-berita-lainnya:hover {
+  color: #ffffff;
+}
+
+.btn-berita-lainnya{
+  font-size: 16px;
+}
+
+.box-ticker {
+  cursor: pointer;
+}
+
+/* .ticker-live a {
+  border: 1px solid red;
+} */
+
+/* .ticker-live .col-12 {
+  border: 1px solid green;
+} */
+@media only screen and (min-width: 1800px) {
+  #mainNav {
+    background: url(../assets/img/bg-navbar-2.png) bottom center no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    padding-top: 20px;
+    height: 164px;
+    z-index: 99998 !important;
+  }
+
+  #navbarResponsive .nav-kiri:first-child {
+    transform: translateX(-84%);
+  }
+
+  #navbarResponsive .nav-session:last-child {
+    transform: translateX(89%);
+  }
+
+  #navbarResponsive {
+    margin-top: -87px;
+  }
+
+  #navbarResponsive .nav-kanan li a {
+    transform: translateX(112%);
+  }
+
+  #onboard #navbarResponsive {
+    margin-top: -79px;
+  }
+
+  #onboard #navbarResponsive .nav-kiri:first-child {
+    transform: translateX(-76%);
+  }
+
+  #onboard #navbarResponsive .nav-session:last-child {
+    transform: translateX(57%);
+  }
+
+  #onboard #navbarResponsive .nav-kanan li a {
+    transform: translateX(132%);
+  }
+
+  #myquiz {
+    padding-top: 100px;
+  }
+
+  #ticker-live {
+    top: 220px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  #navbarResponsive .nav-kiri:first-child {
+    transform: translateX(-64%);
+  }
+
+  #navbarResponsive .nav-session:last-child {
+    transform: translateX(29%);
+  }
+
+  #mainNav {
+    background: url(../assets/img/bg-navbar-2.png) bottom center no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    padding-top: 20px;
+    height: 164px;
+    z-index: 999;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 0 10px;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 12px;
+    padding: 0 5px;
+  }
+
+  #mainNav {
+    background: url(../assets/img/bg-navbar-2.png) bottom center no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    padding-top: 20px;
+    height: 130px;
+    z-index: 997;
+  }
+
+  .logo-yamahagp {
+    max-width: 130px;
+  }
+
+  .logo-yamaha {
+    max-width: 100px;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: #a3a3a3;
+    text-transform: uppercase;
+    /* padding: 0 1rem; */
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #111399;
+    text-transform: uppercase;
+    /* padding: 0 1rem; */
+  }
+
+  #mainNav.navbar-scrolled {
+    box-shadow: none;
+    background-color: #fff0;
+  }
+
+  #mainNav {
+    box-shadow: none;
+    background-color: #fff0;
+  }
+
+  #navbarResponsive {
+    margin-top: -47px;
+  }
+
+  #onboard #navbarResponsive {
+    margin-top: -45px;
+  }
+
+  #onboard #navbarResponsive .nav-kanan li a {
+    transform: translateX(91%);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #navbarResponsive .nav-kiri:first-child {
+    transform: translateX(-59%);
+  }
+
+  #navbarResponsive .nav-kiri:first-child {
+    transform: none;
+  }
+
+  #navbarResponsive .nav-kanan:first-child {
+    transform: none;
+  }
+
+  #navbarResponsive .nav-session:last-child {
+    transform: none;
+  }
+
+  #navbarResponsive .nav-kanan li a {
+    transform: none;
+  }
+
+  #navbarResponsive {
+    margin-top: -50px;
+  }
+
+  #mainNav {
+    background: url(../assets/img/bg-navbar-2.png) bottom center no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    padding-top: 20px;
+    height: 130px;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: #a3a3a3;
+    /* padding: 0 1rem; */
+  }
+
+  #mainNav.navbar-scrolled {
+    box-shadow: none;
+    background-color: #fff0;
+  }
+
+  #mainNav {
+    box-shadow: none;
+    background-color: #fff0;
+  }
+
+  .logo-yamahagp {
+    max-width: 100px;
+  }
+
+  .logo-yamaha {
+    max-width: 90px;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    padding: 10px 5px;
+  }
+
+  .center-nav {
+    position: fixed;
+    left: 31%;
+    width: 40%;
+    margin-top: -24px;
+  }
+
+  .btn-mekanisme {
+    font-size: 10px;
+  }
+
+  .btn-ikuti-quiz {
+    font-size: 10px;
+  }
+
+  .navbar-collapse {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 75%;
+    height: 100%;
+  }
+
+  .navbar-collapse.collapsing {
+    left: -75%;
+    transition: height 0s ease;
+  }
+
+  .navbar-collapse.show {
+    left: 0;
+    transition: left 300ms ease-in-out;
+  }
+
+  .navbar-toggler.collapsed~.navbar-collapse {
+    transition: left 500ms ease-in-out;
+  }
+
+  .navbar-collapse .navbar-nav {
+    margin: 0px !important;
+  }
+
+  .navbar-collapse .nav-kiri {
+    padding-top: 38px;
+  }
+
+  #onboard .navbar-collapse .nav-kiri {
+    /* padding-top: 128px; */
+  }
+
+
+  #navbarResponsive .nav-kanan li a {
+    transform: none;
+  }
+
+  .navbar-collapse.show {
+    background: linear-gradient(180deg, #438AD9 0%, #0C1C8C 100%);
+    opacity: 0.8;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+  }
+
+  #navbarResponsive .nav-kanan li a {
+    color: #ffffff !important;
+  }
+
+  #mainNav {
+    text-align: left;
+  }
+
+  #navbarResponsive .nav-session:last-child {
+    transform: none;
+  }
+
+  .btn-login svg {
+    display: block !important;
+  }
+
+  .btn-login {
+    border-radius: 10rem;
+    padding: 10px 5px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  #onboard .btn-login {
+    border-radius: 10rem;
+    padding: 10px 5px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .navbar-brand {
+    margin-right: 5px;
+  }
+
+  .center-nav {
+    position: fixed;
+    left: 40%;
+    width: 60%;
+    margin-top: -24px;
+  }
+
+  #onboard #navbarResponsive {
+    margin-top: -50px;
+  }
+
+  #onboard #navbarResponsive .nav-kiri:first-child {
+    transform: none;
+  }
+
+  #onboard #navbarResponsive .nav-kanan:first-child {
+    transform: none;
+  }
+
+  #onboard #navbarResponsive .nav-session:last-child {
+    transform: none;
+  }
+
+  #onboard #navbarResponsive .nav-kanan li a {
+    transform: none;
+  }
+
+  #onboard #navbarResponsive .nav-kanan li a {
+    color: #ffffff !important;
+  }
+
+  #onboard .show ul .profileuser-mobile {
+    display: block !important;
+  }
+
+  #onboard .show ul .profileuser {
+    display: none !important;
+  }
+
+  .profileuser-mobile img {
+    max-width: 32px;
+  }
+
+  .profileuser-mobile p {
+    font-size: 11px;
+  }
+
+  .btn-user {
+    padding: 5px 0px;
+
+  }
+
+  header.masthead h1 {
+    height: 120px;
+  }
+
+  
+
+  #mainNav {
+    height: 80px;
+  }
+
+  #navbarResponsive .nav-kiri:first-child {
+    transform: translateX(0%);
+  }
+
+  .logo-yamahagp-intro {
+    max-width: 300px;
+  }
+
+  
+
+  .social-media a {
+    font-size: 20px !important;
+    padding: 0 8px;
+  }
+
+  .navbar-toggler {
+    z-index: 3;
+    position: absolute;
+    top: 7px;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #navbarResponsive .nav-kiri:first-child {
+    transform: translateX(-59%);
+  }
+
+  #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+  }
+
+  .logo-yamahagp {
+    max-width: 90px;
+  }
+
+  .logo-yamaha {
+    max-width: 70px;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    padding: 10px 5px;
+  }
+
+  #navbarResponsive {
+    margin-top: -50px;
+  }
+
+  #mainNav {
+    height: 80px;
+  }
+
+  .center-nav {
+    position: fixed;
+    left: 31%;
+    width: 40%;
+    margin-top: -24px;
+  }
+
+  .btn-mekanisme {
+    font-size: 10px;
+  }
+
+  .btn-ikuti-quiz {
+    font-size: 10px;
+  }
+
+  .navbar-collapse {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 75%;
+    height: 100%;
+  }
+
+  .navbar-collapse.collapsing {
+    left: -75%;
+    transition: height 0s ease;
+  }
+
+  .navbar-collapse.show {
+    left: 0;
+    transition: left 300ms ease-in-out;
+  }
+
+  .navbar-toggler.collapsed~.navbar-collapse {
+    transition: left 500ms ease-in-out;
+  }
+
+  .navbar-collapse .navbar-nav {
+    margin: 0px !important;
+  }
+
+  .navbar-collapse .nav-kiri {
+    padding-top: 38px;
+  }
+
+  #onboard .navbar-collapse .nav-kiri {
+    /* padding-top: 128px; */
+  }
+
+
+  #navbarResponsive .nav-kanan li a {
+    transform: none;
+  }
+
+  .navbar-collapse.show {
+    background: linear-gradient(180deg, #438AD9 0%, #0C1C8C 100%);
+    opacity: 0.9;
+    z-index: 2;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+  }
+
+  #navbarResponsive .nav-kanan li a {
+    color: #ffffff !important;
+  }
+
+  #mainNav {
+    text-align: left;
+  }
+
+  #navbarResponsive .nav-session:last-child {
+    transform: none;
+  }
+
+  .btn-login svg {
+    display: block !important;
+  }
+
+  .btn-login {
+    border-radius: 10rem;
+    padding: 10px 5px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  #onboard .btn-login {
+    border-radius: 10rem;
+    padding: 10px 5px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .navbar-brand {
+    margin-right: 5px;
+  }
+
+  .center-nav {
+    position: fixed;
+    left: 38%;
+    width: 60%;
+    margin-top: -24px;
+  }
+
+  #onboard #navbarResponsive {
+    margin-top: -50px;
+  }
+
+  #onboard #navbarResponsive .nav-kiri:first-child {
+    transform: none;
+  }
+
+  #onboard #navbarResponsive .nav-kanan:first-child {
+    transform: none;
+  }
+
+  #onboard #navbarResponsive .nav-session:last-child {
+    transform: none;
+  }
+
+  #onboard #navbarResponsive .nav-kanan li a {
+    transform: none;
+  }
+
+  #onboard #navbarResponsive .nav-kanan li a {
+    color: #ffffff !important;
+  }
+
+  #onboard .show ul .profileuser-mobile {
+    display: block !important;
+  }
+
+  #onboard .show ul .profileuser {
+    display: none !important;
+  }
+
+  .profileuser-mobile img {
+    max-width: 32px;
+  }
+
+  .profileuser-mobile p {
+    font-size: 11px;
+  }
+
+  .btn-user {
+    padding: 5px 0px;
+  }
+
+  .intro p {
+    font-size: 14px;
+  }
+
+  .box-hadiah h6 {
+    font-size: 16px;
+  }
+
+  
+
+  .pemenang h2 {
+    font-size: 24px;
+  }
+
+  .pemenang h6 {
+    font-size: 12px;
+  }
+
+  .btn-mekanisme {
+    width: 70%;
+    margin: 10px 0px;
+  }
+
+  .btn-ikuti-quiz {
+    width: 70%;
+    margin: 10px 0px;
+  }
+
+  #mainNav {
+    z-index: 99999 !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  header.masthead {
+    padding-top: 16rem;
+    padding-bottom: 0px;
+    background: url(../assets/img/bg-intro-mid.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  header.masthead h1 {
+    height: 120px;
+  }
+
+  .center-nav {
+    position: fixed;
+    left: 25%;
+    width: 60%;
+    margin-top: -24px;
+  }
+
+  #mainNav {
+    height: 80px;
+  }
+
+  #navbarResponsive .nav-kiri:first-child {
+    transform: translateX(0%);
+  }
+
+  .logo-yamahagp-intro {
+    max-width: 240px;
+  }
+
+  .social-media a {
+    font-size: 20px !important;
+    padding: 0 8px;
+  }
+
+  .navbar-toggler {
+    z-index: 999;
+    position: absolute;
+    top: 7px;
+    left: 0px;
+  }
+
+  .intro {
+    width: 70%;
+    margin: auto;
+  }
+
+  .box-ctp-inner {
+    position: relative;
+    height: 250px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+  header.masthead {
+    padding-top: 16rem;
+    padding-bottom: 0px;
+    background: url(../assets/img/bg-intro-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+}
+
+@media only screen and (max-width: 345px) {
+  .logo-yamahagp {
+    max-width: 80px;
+  }
+
+  .logo-yamaha {
+    max-width: 60px;
+  }
+
+  
+}

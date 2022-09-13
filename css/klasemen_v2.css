@@ -1,0 +1,372 @@
+body {
+    background: #f6f6f6;
+    font-family: TitilliumWeb-Regular;
+}
+.klasemen{
+    background: #04070C;
+}
+.font-light {
+    font-family: TitilliumWeb-Light;
+}
+
+.font-reguler {
+    font-family: TitilliumWeb-Regular;
+}
+
+.font-semibold {
+    font-family: TitilliumWeb-SemiBold;
+}
+
+.font-bold {
+    font-family: TitilliumWeb-Bold;
+}
+
+.font-rb-regular {
+    font-family: rb-regular;
+}
+
+.font-rb-black {
+    font-family: rb-black;
+}
+
+#klasemen {
+    background: url(../assets/img/background/header-background-2022.jpg) no-repeat;
+    background-size: cover;
+}
+
+#klasemen .header-box {
+    margin-top: 150px;
+}
+
+#klasemen h3 {
+    font-family: TitilliumWeb-SemiBold;
+    color: #fff;
+}
+
+#klasemen h1 {
+    font-family: TitilliumWeb-Bold;
+    color: #fff;
+}
+
+.klasemen-box {
+    background: #162DBF;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.klasemen-data span {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.top-3 {
+    background: #0B1C8A;
+}
+
+#pemenang h1,
+#pemenang h3,
+#pemenang p {
+    color: #E6E7E2;
+}
+
+#pemenang h1{
+    font-weight: 900;
+}
+#pemenang .box-hadiah {
+    position: relative;
+}
+
+#pemenang .image-hadiah {
+    max-width: 100%;
+}
+
+#pemenang .image-hadiah-back {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+    top: -270px;
+    width: 100%;
+}
+
+#pemenang .nama-pemenang {
+    background: #0A427B;
+    color: #fff;
+    font-family: TitilliumWeb-Bold;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 255px;
+    border-radius: 100px;
+    bottom: -15px;
+}
+
+#pemenang .nama-pemenang-quiz {
+    background: #0B1C8A;
+    color: #E6E7E2;
+    font-family: TitilliumWeb-Bold;
+    font-weight: 900;
+    border-radius: 100px;
+    margin-left: 5px;
+    max-width: 350px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#pemenang .swiper-button-next,
+#pemenang .swiper-button-prev {
+    width: calc(var(--swiper-navigation-size)/ 5 * 50);
+    color: #E6E7E2;
+}
+
+
+#ticker-live {
+    position: fixed;
+    width: 100%;
+    top: 170px;
+    z-index: 998;
+    margin: auto;
+    left: 0;
+    right: 0;
+    max-width: 1110px;
+}
+
+.box-ticker {
+    width: 220px;
+    position: absolute;
+    z-index: 998;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px #00000029;
+    right: 0;
+    top: -30px;
+    /* border: 1px solid blue; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-ticker span.font-bold.mr-1 {
+  font-size: 20px;
+}
+
+#ticker-live a,
+#ticker-live a:hover {
+    color: #000 !important;
+}
+
+.livenow {
+    width: 30px;
+    display: inline-block;
+}
+
+.livenow>div {
+    /* vertical-align: middle; */
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    /* position: absolute; */
+    /* margin: 0 auto; */
+    border: 3px solid white;
+    -webkit-animation: live 1.4s infinite ease-in-out;
+    animation: live 1.4s infinite ease-in-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    /* margin-top: -16px; */
+}
+
+.livenow>div:nth-child(1) {
+    background-color: rgba(255, 255, 255, 0.3);
+    background-color: red;
+    -webkit-animation-delay: -0.1s;
+    animation-delay: -0.1s;
+}
+
+#ticker-live img {
+    max-width: 50px;
+}
+
+#pemenang .box-jadwal {
+    width: 100%;
+    height: auto;
+    background: #FFF;
+    border: 2px solid #AFAFAF;
+    border-radius: 10px;
+    margin: auto;
+    padding: 17px;
+    max-width: 350px;
+    opacity: 1 !important;
+}
+
+/* #podiumname-desktop {
+    display: block;
+} */
+
+#podiumname-mobile {
+    display: none;
+}
+
+@-webkit-keyframes live {
+
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0.6);
+    }
+
+    40% {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes live {
+
+    0%,
+    80%,
+    100% {
+        transform: scale(0.6);
+        -webkit-transform: scale(0.6);
+    }
+
+    40% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+        left: -80px !important;
+        right: auto;
+    }
+
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev {
+        right: -80px !important;
+        left: auto;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+        left: -170px !important;
+        right: auto;
+    }
+
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev {
+        right: -170px !important;
+        left: auto;
+    }
+
+    .box-ticker {
+        z-index: 2;
+    }
+
+    #podiumname-desktop {
+        display: none;
+    }
+
+    #podiumname-mobile {
+        display: block;
+    }
+}
+
+@media(max-width:480px) {
+    #klasemen {
+        background-size: contain;
+    }
+
+    #klasemen h3,
+    #pemenang h3 {
+        font-size: 1rem;
+        color: #fff;
+    }
+
+    #klasemen h1,
+    #pemenang h1 {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    #pemenang p {
+        font-size: 0.8rem;
+    }
+
+    #pemenang .nama-pemenang {
+        top: 280px;
+    }
+
+    #pemenang .swiper-slide img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    #pemenang .swiper-button-next,
+    #pemenang .swiper-button-prev {
+        width: calc(var(--swiper-navigation-size)/ 200);
+        top: 50%;
+    }
+
+    #pemenang .swiper-button-next:after,
+    #pemenang .swiper-button-prev:after {
+        font-size: 20px;
+    }
+
+    .box-ticker {
+        max-width: 120px;
+        margin: auto;
+        position: fixed;
+        z-index: 1;
+        top: 130px;
+        background: #fff;
+        padding: 5px;
+        border-radius: 8px;
+        box-shadow: 0px 2px 5px #00000029;
+        right: 15px;
+    }
+
+    .livenow {
+        width: 15px;
+        display: inline-block;
+    }
+
+    .livenow>div {
+        width: 15px;
+        height: 15px;
+        margin-top: -12px;
+    }
+
+    .box-ticker span {
+        font-size: 0.7rem;
+    }
+
+    #ticker-live img {
+        max-width: 30px;
+    }
+
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+        left: 10px !important;
+        right: auto;
+    }
+
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev {
+        right: 10px !important;
+        left: auto;
+    }
+    #pemenang .image-hadiah-back {
+        top: 0 !important;
+    }
+}

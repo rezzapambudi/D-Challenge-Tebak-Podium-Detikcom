@@ -1,0 +1,287 @@
+.quiz {
+  padding: 170px 40px 0;
+}
+
+.quiz h1, .prediksi h1 {
+  font-weight: 900;
+  font-size: 44px;
+}
+
+.quiz p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.quiz .mekanisme, .prediksi .reset, .prediksi .mekanisme {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 169px;
+  height: 56px;
+  background: #E1EDFF;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #162DBF;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.prediksi .reset, .prediksi .mekanisme {
+  width: fit-content;
+  padding: 0 20px;
+  height: 38px;
+}
+
+.prediksi .mekanisme {
+  margin-left: 10px;
+}
+
+.prediksi .kontrol {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.quiz .mekanisme i, .prediksi .mekanisme i {
+  margin-left: 8px;
+}
+
+.quiz .schedule {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.quiz .schedule ul {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz .schedule>ul {
+  padding: 12px 23px;
+}
+
+.quiz .schedule li.left ul, .quiz .schedule li.right ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.quiz .schedule li.right ul {
+  align-items: flex-start;
+}
+
+.quiz .schedule li {
+  font-weight: 700;
+}
+
+.quiz .schedule li.left li {
+  color: #162DBF;
+}
+
+.quiz .schedule li.left li:nth-child(1) {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.quiz .schedule li.left li:nth-child(2) {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.quiz .schedule li.right {
+  border-left: 1px solid #000000;
+  margin-left: 12px;
+  padding-left: 12px;
+}
+
+
+.quiz .schedule li.right li:nth-child(1) {
+  font-size: 16px;
+}
+
+.quiz .schedule li.right li:nth-child(2) {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.quiz .schedule li.right li:nth-child(3) {
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.quiz .schedule li.right li img {
+  width: 35px;
+  margin-right: 8px;
+}
+
+.prediksi {
+  margin-top: 20px;
+  padding: 0 40px;
+}
+
+.driver_list ul, .pilihan ul {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+}
+
+.pilihan ul {
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pilihan li.belum_pilih {
+  background-color: #E1EDFF;
+  font-size: 18px;
+  text-align: center;
+  color: #162DBF;
+}
+
+.pilihan li.belum_pilih::after {
+  content: none;
+}
+
+.driver_list li, .pilihan li {
+  width: calc(50% - 10px);
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 12px 14px;
+  position: relative;
+  z-index: 0;
+}
+
+.pilihan li {
+  width: calc(100% - 40px);
+  margin-right: 0;
+}
+
+.driver_list li::after, .pilihan li::after {
+  content: " ";
+  position: absolute;
+  background-color: #F4F7FC;
+  width: 70px;
+  height: 48px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  left: 2px;
+  top: 2px;
+  z-index: -1;
+}
+
+.driver_list li.active, .pilihan li.active {
+  background-color: #0B1C8A;
+  color: #fff;
+}
+
+.driver_list li.active::after, .pilihan li.active::after {
+  background-color: #fff;
+}
+
+.driver_list li img, .pilihan li img {
+  width: 35px;
+  margin-left: 6px;
+  margin-right: 25px;
+}
+
+.driver_list li span, .pilihan li span {
+  display: inline-block;
+}
+
+.pilihan {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px 0;
+}
+
+.pilihan h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.footer {
+  width: 100vw;
+  margin-top: 200px;
+  border-top: 10px solid #162DBF;
+  background-color: #000000;
+  padding: 60px 0;
+  color: #D1D5DB;
+}
+
+.footer .detik-yamaha {
+  width: 233px;
+}
+
+.footer_2column > div:nth-child(1) {
+  font-size: 14px;
+  width: calc(100% - 80px);
+}
+
+.footer_2column > div:nth-child(1) > p {
+  width: 80%;
+}
+
+.footer_2column, .footer_2column .socmed {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.footer_2column .socmed {
+  padding: 0 20px;
+}
+
+.footer_2column .socmed a:nth-child(2) {
+  margin: 0 20px;
+}
+
+.footer .copyright {
+  border-top: 1px solid #fff;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .driver_list li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .quiz .schedule {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .driver_list li {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .footer_2column {
+    flex-flow: column nowrap;
+  }
+
+  .footer_2column .socmed {
+    padding: 0;
+  }
+
+  .footer_2column > div:nth-child(1) {
+    width: 100%;
+  }
+
+  .footer_2column > div:nth-child(1) > p {
+    width: 100%;
+  }
+}

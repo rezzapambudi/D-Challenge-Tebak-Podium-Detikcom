@@ -1,0 +1,84 @@
+#myquiz {
+    background: url(../assets/img/background/header-background-2022.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #0563b0;
+}
+
+#myquiz .header-box {
+    margin-top: 150px;
+}
+
+#myquiz h3 {
+    font-family: TitilliumWeb-SemiBold;
+    font-size: 30px;
+    color: #fff;
+}
+
+#myquiz h1 {
+  font-family: TitilliumWeb-SemiBold;
+  font-size: 70px;
+  color: #fff;
+}
+
+#myquiz h6 {
+  font-family: TitilliumWeb-Regular;
+  font-size: 23px;
+  color: #fff;
+  line-height: 2;
+  margin-bottom: 1.2rem;
+}
+
+#myquiz .box-jadwal {
+    height: 113px;
+}
+
+#myquiz .container-pembalap {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#myquiz .container-jadwal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 170px;
+  }
+
+.bg-white {
+    background: #fff;
+}
+
+.bg-grey {
+    background: #CCCCCC;
+}
+
+.quiz-box {
+    background: #438AD9;
+    color: #000000;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+@media(max-width:480px) {
+    #myquiz h1 {
+        font-family: TitilliumWeb-SemiBold;
+        font-size: 40px;
+        color: #fff;
+    }
+
+    #myquiz h6 {
+        font-family: TitilliumWeb-Regular;
+        font-size: 17px;
+        color: #fff;
+        line-height: 2;
+        margin-bottom: 1.2rem;
+    }
+
+    #myquiz .container-jadwal {
+        padding-top: 20px;
+    }
+
+}

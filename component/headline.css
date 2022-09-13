@@ -1,0 +1,149 @@
+body {
+  /* background-image: url(../assets/img/bg-for-headline.jpg); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top right;
+}
+
+.intro {
+  padding: 200px 40px 0;
+  position: relative;
+}
+
+.logo-yamahagp-intro {
+  width: 210px;
+}
+
+.intro h1 {
+  font-weight: 900;
+  margin-top: 20px;
+  font-size: 60px;
+}
+
+.intro h2 {
+  font-weight: 900;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.intro p {
+  font-size: 18px !important;
+  color: #4F4F4F;
+}
+
+.btn-ikuti-quiz {
+  border-radius: 8px;
+  padding: 5px 20px;
+  background: #162DBF !important;
+  border-color: #162DBF;
+  font-weight: 400;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn-ikuti-quiz i {
+  margin-left: 8px;
+}
+
+.btn-live-streaming {
+  border-radius: 8px;
+  padding: 5px 20px;
+  background: #162dbf00 !important;
+  border-color: #162dbf00;
+  font-weight: 400;
+  color: #162DBF;
+  cursor: pointer;
+}
+
+.btn-live-streaming:hover{
+  color: #162DBF;
+}
+
+.btn-live-streaming i {
+  margin-right: 8px;
+}
+
+.btn-live-streaming img {
+  margin-right: 8px;
+  padding-bottom: 4px;
+}
+
+
+
+.btn {
+  font-size: 16px;
+}
+
+.image-intro {
+  position: absolute;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: right;
+  top: 160px;
+  z-index: -1;
+}
+
+.image-intro img {
+  width: 580px;
+}
+
+.for_alert {
+  padding-top: 109px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+div.alert-danger {
+  background: #FFC7C7;
+  color: #C85757;
+  font-size: 20px;
+}
+
+div.alert-danger .btn-close {
+  -webkit-filter: invert(41%) sepia(10%) saturate(3320%) hue-rotate(314deg) brightness(102%) contrast(79%);
+  filter: invert(41%) sepia(10%) saturate(3320%) hue-rotate(314deg) brightness(102%) contrast(79%);
+}
+
+.intro {
+  padding-top: 50px;
+}
+
+.image-intro {
+  top: 15px;
+}
+
+
+@media (max-width: 1200px) {
+  .intro h1 {
+    font-size: 46px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  body {
+    background-size: 220%;
+  }
+
+  /* .intro {
+    padding-top: 140px;
+  } */
+
+  .image-intro {
+    position: inherit;
+    top: 20px;
+  }
+
+  .image-intro img {
+    width: 354px;
+  }
+
+  .intro h1 {
+    font-size: 36px;
+  }
+
+  .intro h2 {
+    font-size: 26px;
+  }
+}

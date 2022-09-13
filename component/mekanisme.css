@@ -1,0 +1,66 @@
+.mekanisme {
+  padding: 170px 40px 0;
+}
+
+.mekanisme h1 {
+  font-weight: 900;
+  font-size: 44px;
+}
+
+.mekanisme p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.mekanisme .accordion-item {
+  border: 2px solid #012175;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.mekanisme .accordion-header {
+  position: relative;
+}
+
+.mekanisme .accordion-header::after {
+  content: " ";
+  position: absolute;
+  /* top: 42px; */
+  left: -2px;
+  width: calc(100% + 4px);
+  height: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #0B1C8A;
+  bottom: -3px;
+}
+
+.mekanisme .accordion-button {
+  background: #0B1C8A;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.mekanisme .accordion-button::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+.mekanisme ol li {
+  list-style: decimal;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.mekanisme li {
+  list-style: none;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.mekanisme p {
+  list-style: none;
+  font-weight: 300;
+  font-size: 18px;
+}

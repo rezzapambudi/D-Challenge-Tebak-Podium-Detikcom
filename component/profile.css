@@ -1,0 +1,126 @@
+.akun_poin {
+  padding: 170px 40px 0;
+}
+
+.akun_poin .detail {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.akun_poin .foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  margin: 0 auto;
+  border: 3px solid #E1EDFF;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.akun_poin h1,
+.akun_poin h2 {
+  font-weight: 900;
+  font-size: 44px;
+  margin-top: 31px;
+}
+
+.akun_poin h2 {
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+.akun_poin .yourpoin {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.akun_poin .yourpoin span {
+  font-weight: 700;
+  font-size: 24px;
+  color: #162DBF;
+  padding: 16px 24px;
+  border-radius: 8px;
+  background: #E1EDFF;
+  margin-left: 10px;
+}
+
+.akun_poin .lokasi {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 20px;
+}
+
+.akun_poin .lokasi-item {
+  background-color: #fff;
+  border-radius: 10px;
+  width: calc((100% / 4) - 10px);
+  margin: 0 10px 10px 0;
+  position: relative;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.akun_poin .lokasi-nama {
+  color: #000;
+  background: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 60px;
+  padding: 0 10px 0 20px;
+}
+
+.akun_poin .lokasi-nama img {
+  width: 34px;
+  margin-right: 8px;
+}
+
+.akun_poin .lokasi-nama span {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.akun_poin .lokasi-detil ul {
+  padding: 1rem 2rem;
+  background-color: #162DBF;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.akun_poin .lokasi-detil span {
+  float: right;
+}
+
+@media (max-width: 1200px) {
+  .akun_poin .lokasi-item {
+    width: calc((100% / 3) - 10px);
+  }
+}
+
+@media (max-width: 992px) {
+  .akun_poin .lokasi-item {
+    width: calc((100% / 2) - 10px);
+  }
+}
+
+@media (max-width: 576px) {
+  .akun_poin .lokasi-item {
+    width: calc((100% / 1) - 10px);
+  }
+
+  .akun_poin h1 {
+    font-size: 38px;
+  }
+
+  .akun_poin h2 {
+    font-size: 25px;
+  }
+}

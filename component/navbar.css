@@ -1,0 +1,311 @@
+#nav_burger {
+  display: none;
+}
+
+nav {
+  position: relative;
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 15px rgba(29, 52, 97, 0.15);
+  border-radius: 0px 0px 10px 10px;
+  flex-wrap: nowrap !important;
+}
+
+nav a.logo {
+  line-height: 80px;
+  margin-left: 28px;
+}
+
+nav a.logo img {
+  width: 185px;
+}
+
+nav ul.menu {
+  margin-right: 20px;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+nav ul.menu li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul.menu li a {
+  color: #1E1E1E;
+  font-size: 16px;
+  /* font-size: 14px; */
+  font-weight: 700;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav ul.menu li a.active,
+nav ul.menu li a:hover {
+  color: #162DBF;
+  cursor: pointer;
+}
+
+nav .checkbtn {
+  font-size: 23px;
+  color: #111827;
+  line-height: 80px;
+  margin-left: 28px;
+  cursor: pointer;
+  display: none;
+}
+
+nav li.akun, nav li.daftar {
+  float: right;
+  position: relative;
+}
+
+nav li.akun label.profile:hover {
+  cursor: pointer;
+}
+
+nav li.akun #profile {
+  display: none;
+}
+
+nav li.akun .profile {
+  display: flex;
+  align-items: center;
+}
+
+nav li.akun .profile span {
+  flex-grow: 1;
+  font-weight: 700;
+  padding: 0 13px;
+}
+
+nav li.akun .profile .foto {
+  width: 34px;
+  height: 34px;
+  border-radius: 22px;
+  border: 2px solid #D3E0F1;
+  margin-right: 6px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+nav li.akun .profile .fa-chevron-up {
+  display: none;
+}
+
+nav ul.seting {
+  display: none;
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 18px;
+  width: 140px;
+  height: 140px;
+  background-image: url(../assets/img/box-akun-seting.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: -28px;
+  top: 56px;
+}
+
+nav ul.seting li {
+  display: block;
+  margin: 0;
+  line-height: 46px;
+}
+
+nav ul.seting li a {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+nav #profile:checked~ul.seting {
+  display: block;
+}
+
+nav #profile:checked~.profile i.fa-chevron-up {
+  display: block;
+}
+
+nav #profile:checked~.profile i.fa-chevron-down {
+  display: none;
+}
+
+nav li.daftar ul {
+  padding-left: 0;
+}
+
+nav li.daftar ul li a {
+  font-size: 14px;
+}
+
+nav li.daftar ul li:nth-child(1) a {
+  border-radius: 8px;
+  background-color: #162DBF;
+  color: #fff;
+}
+
+nav li.daftar ul li:nth-child(2) a {
+  border-radius: 8px;
+  border: 1px solid #162DBF;
+}
+
+/* @media (max-width: 1200px) {
+  nav ul.menu li a,
+  nav li.akun .profile span,
+  nav li.daftar ul li a {
+    font-size: 14px;
+  }
+
+  nav li.daftar ul li a {
+    font-size: 12px;
+  }
+} */
+
+/* @media (max-width: 992px) { */
+@media (max-width: 1200px) {
+  nav .checkbtn {
+    display: inline-block;
+  }
+
+  nav .checkbtn i.fa-times {
+    display: none;
+  }
+
+  nav a.logo {
+    width: calc(100% - 80px);
+  }
+  
+  nav a.logo img {
+    margin-left: calc(50% - 100px);
+  }
+
+  nav ul.menu {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    top: 58px;
+    padding-right: 32px;
+    left: 0;
+    display: none;
+  }
+
+  nav ul.menu li {
+    display: block;
+    margin: 20px 0;
+    line-height: 30px;
+  }
+
+  nav ul.menu li:nth-child(1) {
+    margin-top: 10px;
+  }
+
+  nav ul.menu li a, nav li.daftar ul li a {
+    font-size: 20px;
+  }
+
+  #nav_burger:checked~nav ul.menu {
+    display: block;
+  }
+
+  #nav_burger:checked~nav {
+    box-shadow: none;
+  }
+
+  #nav_burger:checked~nav::after {
+    content: " ";
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  #nav_burger:checked~nav a.logo {
+    display: none;
+  }
+
+  #nav_burger:checked~nav label.checkbtn i.fa-bars {
+    display: none;
+  }
+
+  #nav_burger:checked~nav label.checkbtn i.fa-times {
+    display: inline-block;
+  }
+
+  nav li.akun {
+    border-top: 2px solid #E5E7EB;
+    padding-top: 18px;
+    float: none;
+  }
+
+  nav li.akun .profile span {
+    font-size: 20px;
+  }
+
+  nav ul.seting {
+    /* padding: 10px 0 0 140px;
+    position: inherit;
+    background: #F4F7FC;
+    width: 100vw;
+    height: 120px;
+    top: 15px;
+    left: -44px; */
+
+    /* position: absolute;
+    background: #F4F7FC;
+    width: calc(100vw - 10px);
+    height: 120px;
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 10px;
+    padding-left: calc(100vw - 334px); */
+
+    background: none;
+    width: 100%;
+    padding-left: 0;
+    left: 0;
+    position: relative;
+    top: 0;
+    z-index: 9;
+  }
+
+  nav ul.seting::after {
+    content: " ";
+    width: 100vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #F4F7FC;
+    height: 120px;
+    top: 11px;
+    z-index: -1;
+  }
+
+  nav ul.seting li a {
+    font-weight: 400;
+  }
+
+  nav li.daftar {
+    width: 100%;
+    padding: 10px 13px 0;
+    border-top: 2px solid #E5E7EB;
+    margin-top: 0 !important;
+
+  }
+  
+  nav li.daftar ul li a {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,95 @@
+.mekanisme{
+  background: #0364B1;
+}
+#mekanisme h3 {
+  font-family: TitilliumWeb-SemiBold;
+  color: #fff;
+}
+
+#mekanisme {
+  background: url(../assets/img/background/header-background-2022.jpg) no-repeat;
+  background-size: cover;
+}
+
+#mekanisme .box-btn-back {
+  margin-top: 260px;
+}
+
+#mekanisme .header-box {
+  margin-top: 20px;
+}
+
+#mekanisme h1 {
+  font-family: TitilliumWeb-Bold;
+  color: #fff;
+}
+
+#mekanisme button svg {
+  margin-right: 10px;
+}
+
+#mekanisme .card {
+  border-radius: 20px;
+}
+
+#mekanisme #accordion .card {
+  margin: 10px 0;
+  background-color: #f4f4f4;
+}
+
+#mekanisme #accordion .card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  /* background-color: rgba(0, 0, 0, 0.03); */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  /* background: linear-gradient(180deg, #0c1c8c 0%, #005bbf 100%); */
+  background: #162DBF;
+  border-radius: 24px;
+}
+
+#mekanisme #accordion a .card-header {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#mekanisme .card-body {
+  background: #f4f4f4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  /* background-position: 0px 253px;
+    background-size: cover; */
+}
+
+#mekanisme .card-body a{
+  color: #1F2A9D;
+}
+
+#accordion .card-link .card-header:after {
+  content: "";
+  background-image: url(../assets/img/mekanisme/arrow-right.png);
+  background-size: cover;
+  width: 21px;
+  height: 14px;
+  position: absolute;
+  top: 13px;
+  right: 18px;
+  display: inline-block;
+  z-index: 1;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* #accordion .card-link:after {
+  transform: rotate(90deg);
+} */
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 576px) {
+  #mekanisme .header-box {
+    margin-top: 100px;
+  }
+}

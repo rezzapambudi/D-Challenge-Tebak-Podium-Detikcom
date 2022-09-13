@@ -1,0 +1,243 @@
+.leaderboard {
+  padding: 170px 40px 0;
+}
+
+.leaderboard h1, .leaderboard h2 {
+  font-weight: 900;
+  font-size: 44px;
+}
+
+.leaderboard h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.leaderboard ol {
+  display: flex;
+  flex-flow: column wrap;
+  height: 660px;
+}
+
+.leaderboard ol li {
+  list-style: decimal;
+  width: calc((100% / 2) - 20px);
+  width: calc(100% / 2);
+  padding: 1rem 2rem 1rem 1rem;
+  color: #162DBF;
+  position: relative;
+  z-index: 1;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.leaderboard ol li:nth-child(even) {
+  margin-right: 0;
+}
+
+.leaderboard ol li.active {
+  color: #fff;
+}
+
+.leaderboard ol li::before {
+  content: " ";
+  background: #E1EDFF;
+  position: absolute;
+  top: 6px;
+  left: -40px;
+  width: calc(100% - 20px);
+  height: 45px;
+  z-index: -1;
+  border-radius: 8px;
+}
+
+.leaderboard ol li.active::before {
+  background-color: #162DBF;
+}
+
+.leaderboard .schedule {
+  background-color: #fff;
+  border-radius: 10px;
+  /* width: 360px; */
+}
+
+.leaderboard .schedule ul {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.leaderboard .schedule>ul {
+  padding: 12px 23px;
+}
+
+.leaderboard .schedule li.left ul, .leaderboard .schedule li.right ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.leaderboard .schedule li.right ul {
+  align-items: flex-start;
+}
+
+.leaderboard .schedule li {
+  font-weight: 700;
+}
+
+.leaderboard .schedule li.left li {
+  color: #162DBF;
+}
+
+.leaderboard .schedule li.left li:nth-child(1) {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.leaderboard .schedule li.left li:nth-child(2) {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.leaderboard .schedule li.right {
+  border-left: 1px solid #000000;
+  margin-left: 12px;
+  padding-left: 12px;
+}
+
+.leaderboard .schedule li.right li:nth-child(1) {
+  font-size: 16px;
+}
+
+.leaderboard .schedule li.right li:nth-child(2) {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.leaderboard .schedule li.right li:nth-child(3) {
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.leaderboard .schedule li.right li img {
+  width: 35px;
+  margin-right: 8px;
+}
+
+.leaderboard #carouselControls {
+  margin-top: 40px;
+}
+
+.leaderboard .carousel-inner {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+/* .leaderboard .carousel-item {
+  width: 360px;
+  margin-right: 10px;
+} */
+
+.leaderboard .carousel-control-prev {
+  left: calc(50% - 290px);
+}
+
+.leaderboard .carousel-control-next {
+  right: calc(50% - 290px);
+}
+
+.leaderboard .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230B1C8A'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.leaderboard .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230B1C8A'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.leaderboard .prize {
+  width: 100%;
+  max-width: 520px;
+  margin: 40px auto 0;
+  display: block;
+}
+
+.leaderboard .pemenang {
+  margin: 40px auto 0;
+  flex-flow: column nowrap;
+}
+
+.leaderboard .pemenang div {
+  font-weight: 700;
+  font-size: 16px;
+  width: 100%;
+  max-width: 360px;
+  background: #E1EDFF;
+  border-radius: 8px;
+  margin: 0 auto 20px;
+  padding: 1rem 2rem;
+  text-align: center;
+  color: #162DBF;
+}
+
+.leaderboard {
+  padding-top: 109px;
+}
+
+.leaderboard .alert-danger {
+  background: #FFC7C7;
+  color: #C85757;
+  font-size: 20px;
+}
+
+.leaderboard .btn-close {
+  -webkit-filter: invert(41%) sepia(10%) saturate(3320%) hue-rotate(314deg) brightness(102%) contrast(79%);
+  filter: invert(41%) sepia(10%) saturate(3320%) hue-rotate(314deg) brightness(102%) contrast(79%);
+}
+
+/* @media (max-width: 1200px) {
+  .akun_poin .lokasi-item {
+    width: calc((100% / 3) - 10px);
+  }
+} */
+
+@media (max-width: 992px) {
+  .leaderboard h1 {
+    font-size: 34px;
+  }
+
+  .leaderboard ol {
+    height: auto;
+  }
+
+  .leaderboard ol li {
+    width: 100%;
+  }
+
+  .leaderboard ol li:nth-child(odd) {
+    margin-right: 0;
+  }
+
+  .leaderboard ol li::before {
+    width: calc(100% + 36px);
+  } 
+}
+
+@media (max-width: 576px) {
+  .leaderboard .carousel-control-prev {
+    left: -14px;
+  }
+  .leaderboard .carousel-control-next {
+    right: -14px;
+  }
+}
+
+@media (max-width: 445px) {
+  .leaderboard h1 {
+    font-size: 22px;
+  }
+}

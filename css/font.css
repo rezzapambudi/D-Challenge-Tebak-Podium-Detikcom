@@ -1,0 +1,37 @@
+@font-face {
+    /* 200 */
+    font-family: TitilliumWeb-ExtraLight;
+    src: url(../assets/fonts/TitilliumWeb-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Light;
+    /* 300 */
+    src: url(../assets/fonts/TitilliumWeb-Light.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Regular; 
+    /* 400 */
+    src: url(../assets/fonts/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-SemiBold;
+    /* 600 */
+    src: url(../assets/fonts/TitilliumWeb-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Bold;
+    /* 700 */
+    src: url(../assets/fonts/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Black;
+    /* 900 */
+    src: url(../assets/fonts/TitilliumWeb-Black.ttf);
+}
+
+/* 220210, update by ferry, mengurutkan & menambahkan info weight */

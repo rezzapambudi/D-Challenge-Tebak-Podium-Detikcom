@@ -1,0 +1,208 @@
+.schedule {
+  padding: 170px 40px 0;
+}
+
+.schedule h1 {
+  font-weight: 900;
+  font-size: 44px;
+}
+
+.schedule p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.schedule .mekanisme {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 169px;
+  height: 56px;
+  background: #E1EDFF;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #162DBF;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.schedule .mekanisme i {
+  margin-left: 8px;
+}
+
+.schedule .lokasi {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 20px;
+}
+
+.schedule .lokasi-item {
+  background-color: #fff;
+  border-radius: 10px;
+  width: calc((100% / 4) - 10px);
+  margin: 0 10px 10px 0;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.schedule .lokasi-item.focus {
+  border: 2px solid #A62639;
+}
+
+.schedule .lokasi-item.disable::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(107, 114, 128, 0.5);
+  border-radius: 10px;
+}
+
+.schedule .lokasi-item ul {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.schedule .lokasi-item>ul {
+  padding: 12px 23px;
+}
+
+.schedule .lokasi-item li.left ul, .schedule .lokasi-item li.right ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule .lokasi-item li.right ul {
+  align-items: flex-start;
+}
+
+.schedule .lokasi-item li {
+  font-weight: 700;
+}
+
+.schedule .lokasi-item li.left li {
+  color: #162DBF;
+}
+
+.schedule .lokasi-item li.left li:nth-child(1) {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.schedule .lokasi-item li.left li:nth-child(2) {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.schedule .lokasi-item li.right {
+  border-left: 1px solid #000000;
+  margin-left: 12px;
+  padding-left: 12px;
+}
+
+
+.schedule .lokasi-item li.right li:nth-child(1) {
+  font-size: 14px;
+}
+
+.schedule .lokasi-item li.right li:nth-child(2) {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6B7280;
+}
+
+.schedule .lokasi-item li.right li:nth-child(3) {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 3px;
+  color: #6B7280;
+  line-height: 0px;
+}
+
+.schedule .lokasi-item li.right li img {
+  width: 18px;
+  margin-right: 8px;
+}
+
+.schedule .lokasi-item ul {
+  padding-bottom: 0;
+}
+
+.schedule .bottom {
+  width: 100%;
+  text-align: center;
+}
+
+.schedule .circuit-image {
+  width: calc(100% - 20px);
+  height: 115px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.schedule .bottom img {
+  width: calc(100% - 20px);
+}
+
+.schedule .bottom a {
+  width: fit-content;
+  background: #162DBF;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 14px;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 16px 0;
+}
+
+.schedule {
+  padding-top: 109px;
+}
+
+.schedule .alert-danger {
+  background: #FFC7C7;
+  color: #C85757;
+  font-size: 20px;
+}
+
+.schedule .btn-close {
+  -webkit-filter: invert(41%) sepia(10%) saturate(3320%) hue-rotate(314deg) brightness(102%) contrast(79%);
+  filter: invert(41%) sepia(10%) saturate(3320%) hue-rotate(314deg) brightness(102%) contrast(79%);
+}
+
+@media (max-width: 1200px) {
+  .schedule .lokasi-item {
+    width: calc((100% / 3) - 10px);
+  }
+}
+
+@media (max-width: 992px) {
+  .schedule .lokasi-item {
+    width: calc((100% / 2) - 10px);
+  }
+}
+
+@media (max-width: 767px) {
+  .schedule .lokasi-item {
+    width: calc((100% / 1) - 10px);
+  }
+}
+
+/* @media (max-width: 576px) {
+  .schedule .lokasi-item {
+    width: calc((100% / 1) - 10px);
+  }
+} */

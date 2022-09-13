@@ -1,0 +1,325 @@
+.podium {
+  margin-top: 75px;
+}
+
+.podium .kiri>button {
+  width: 45%;
+  height: 46px;
+  margin-bottom: 1%;
+  margin-right: 3%;
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  text-align: left;
+  position: relative;
+}
+
+.podium .kiri > button::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: -2px;
+  left: -2px;
+  border-radius: 11px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  background: #000;
+}
+
+.podium .kiri button img {
+  width: 23px;
+  margin-left: 10%;
+}
+
+.podium .prediksi {
+  background-color: #ffffff;
+  margin-bottom: 52px;
+}
+
+.podium .prediksi,
+.podium .klasemen {
+  padding: 20px 0;
+  border-radius: 10px;
+  border: 3px solid #afafaf;
+}
+
+.podium .prediksi>button {
+  border: none;
+  background-color: #cccccc;
+}
+
+.podium .prediksi>button {
+  padding: 10px 86px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.podium .prediksi>button b {
+  background: #0a427b;
+  color: #ffffff;
+  border-radius: 4px;
+  width: 20px;
+  margin-right: 4px;
+}
+
+.podium .prediksi h3 {
+  color: #000000 !important;
+  margin-bottom: 20px;
+}
+
+.kontrol {
+  display: flex;
+  align-items: baseline;
+}
+
+.podium .kontrol>button {
+  padding: 3px 23px;
+  margin-top: 7px;
+  border-radius: 30px;
+  background-color: #0a427b;
+  color: #fff;
+  border: none;
+  align-items: baseline;
+}
+
+.kontrol> :first-child {
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.kontrol> :last-child {
+  margin-right: auto;
+  margin-left: 5px;
+}
+
+.link-mekanisme {
+  margin-top: 20px;
+}
+
+.quiz .kiri>button.selected {
+  background-color: #0869ea;
+  border-color: #0869ea;
+}
+
+.quiz .prediksi>button.selected {
+  display: flex;
+  width: 255px;
+  height: 48px;
+  padding: 10px 0;
+  background-color: #0869ea;
+  border-color: #0869ea;
+  position: relative;
+}
+
+.quiz .prediksi>button.selected img {
+  width: 23px;
+  margin-left: 10%;
+}
+
+.podium .kiri button span {
+  font-size: 12px;
+  margin-left: 28%;
+}
+
+.quiz .prediksi>button.selected span {
+  font-size: 14px;
+  margin-left: 33%;
+  position: absolute;
+  margin-top: -4%;
+}
+
+.quiz .prediksi>button.selected span {
+  color: #fff;
+}
+
+button.selected span {
+  color: #fff;
+}
+
+#loginModal,
+#submitDoneModal {
+  /* position: absolute; */
+}
+
+.modal .modal-content {
+  border-radius: 20px;
+  position: relative;
+  margin-top: 50%;
+}
+
+.modal .modal-dialog {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.modal .modal-body {
+  color: #333333;
+}
+
+.modal .modal-footer {
+  border-top: none;
+}
+
+.modal-footer {
+  text-align: center;
+}
+
+.modal .modal-footer button:last-child {
+  background-color: #0c448e;
+}
+
+.modal .modal-footer button {
+  width: 110px;
+  padding: 5px 0;
+  border-radius: 30px;
+  background-color: #b2b2b2;
+  color: #fff;
+  border: none;
+}
+
+.modal-body {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #050C3E !important;
+}
+
+.mybgblur {
+  /* border: 1px solid red; */
+  filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -webkit-filter: blur(4px);
+  z-index: 0;
+}
+
+.mybg {
+  background: #00000091;
+}
+
+.modal-body .info-icon {
+  font-size: 26px;
+  color: #0c448e;
+}
+
+#submitDoneModal .modal-body svg {
+  font-size: 26px;
+  color: #0c448e;
+}
+
+.box-sponsor {
+  background: #C6C6C6;
+  border-radius: 8px;
+  margin: 0px 0px;
+  width: 250px;
+  height: 50px;
+  padding-top: 8px;
+}
+
+button .flag-q {
+  background: #cccccc;
+  margin-left: -6px !important;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid #0a427b;
+  max-width: 250px;
+  position: absolute;
+  top: 0;
+  border-color: linear-gradient(to right, red, purple);
+}
+
+.prediksi .selected .flag-q {
+  /* margin: -8px 12px 0px 0px !important;
+  transform: translateX(3%) translateY(-1px); */
+  margin: -10px 12px 11px 0px !important;
+  transform: translateX(3%) translateY(11px);
+}
+
+button .flag-q img {
+  width: 23px;
+  margin: 0 10px !important;
+}
+
+#myquiz .circuit-desc {
+  margin: 9px 0px;
+}
+
+.quiz .prediksi>button.selected span {
+  font-size: 12px;
+  margin-left: 37%;
+  margin-top: 2%;
+}
+
+.box-container-quiz {
+  padding-bottom: 144px;
+}
+
+@supports (-webkit-touch-callout: none) {}
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+  @media {
+    .quiz .prediksi>button.selected span {
+      font-size: 12px;
+      margin-left: 37%;
+      margin-top: -4%;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .podium .prediksi>button {
+    padding: 10px 56px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  #myquiz h3 {
+    font-family: TitilliumWeb-SemiBold;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .quiz .prediksi>button.selected {
+    display: flex;
+    width: 197px;
+    height: 45px;
+    padding: 10px 0;
+    background-color: #0869ea;
+    border-color: #0869ea;
+  }
+
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  .modal-body .info-icon {
+    font-size: 26px;
+    color: #0c448e;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #myquiz .box-jadwal {
+    height: 113px;
+    margin-top: 0px;
+  }
+
+  .podium .kiri>button {
+    width: 100%;
+  }
+
+  .podium .prediksi,
+  .podium .klasemen {
+    margin-top: 50px;
+  }
+}
